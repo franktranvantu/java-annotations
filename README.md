@@ -1,5 +1,3 @@
-# About this Course
+# The @Override Annotation
 
-Annotations have rapidly become the preferred approach to integrating powerful third-party libraries into your own Java applications. 
-
-In this course, we'll first explore the basic use of annotations to give the compiler instructions. Then, we'll use more advanced techniques to create our own annotation and look for it using reflection.
+The @Override annotation in Java instructs the compiler to verify proper inheritance. Specifically, it verifies proper overriding of methods. In this video, we'll see this annotation in action.
