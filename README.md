@@ -1,5 +1,7 @@
-# Starting the Annotation - Declaration and Retention
+# Finishing the Annotation - Targets and Elements
 
-Setting up the annotation is quite simple. 
+During this section we will continue writing our annotation, first by specifying the targets. 
 
-In this section we'll get started by getting a look at the overall structure of the annotation, as well as specifying its retention. The retention is essentially how long it's kept around, from writing our source code to running our application.
+These configure which Java components can be "decorated" with our annotation, for example classes, methods, fields, etc. 
+
+We'll wrap up the annotation by defining elements or attributes. Think of these elements as instance fields for the Java component that's been annotated.
