@@ -1,7 +1,5 @@
-# Finishing the Annotation - Targets and Elements
+# Using a Custom Annotation
 
-During this section we will continue writing our annotation, first by specifying the targets. 
+With our @Doc annotation written, we can now use it like any other. 
 
-These configure which Java components can be "decorated" with our annotation, for example classes, methods, fields, etc. 
-
-We'll wrap up the annotation by defining elements or attributes. Think of these elements as instance fields for the Java component that's been annotated.
+In this section, we'll apply the annotation to the MathUtils class and a few of its methods.
