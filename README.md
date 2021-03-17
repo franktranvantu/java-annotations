@@ -1,8 +1,10 @@
-# The @SuppressWarnings Annotation - "static"
+# The @SuppressWarnings Annotation - "fallthrough"
 
-Here we get our first look at the @SuppressWarnings annotation. This annotation can be used to turn off compiler warnings - either all warnings or only certain ones. 
+In a switch statement with many cases, it can be easy to accidentally leave off a break statement. 
 
-This section considers the warning a compiler gives you when you incorrectly call a static method.
+And in some cases, this may be done intentionally to save a few lines of code. 
+
+We can use the @SuppressWarnings annotation to control the compiler warnings about these scenarios when a break statement is missing and execution "falls through" to the next case.
 
 ```bash
 javac -Xlint -d out -cp src src/com/franktran/suppresswarnings/Main.java
