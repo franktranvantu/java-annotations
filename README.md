@@ -1,11 +1,5 @@
-# The @SuppressWarnings Annotation - "fallthrough"
+# Starting the Annotation - Declaration and Retention
 
-In a switch statement with many cases, it can be easy to accidentally leave off a break statement. 
+Setting up the annotation is quite simple. 
 
-And in some cases, this may be done intentionally to save a few lines of code. 
-
-We can use the @SuppressWarnings annotation to control the compiler warnings about these scenarios when a break statement is missing and execution "falls through" to the next case.
-
-```bash
-javac -Xlint -d out -cp src src/com/franktran/suppresswarnings/Main.java
-```
+In this section we'll get started by getting a look at the overall structure of the annotation, as well as specifying its retention. The retention is essentially how long it's kept around, from writing our source code to running our application.
