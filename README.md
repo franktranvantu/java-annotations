@@ -1,5 +1,9 @@
-# The @Deprecated Annotation
+# The @SuppressWarnings Annotation - "static"
 
-The `@Deprecated` annotation allows us to mark methods, classes, and fields for future deletion, giving other developers a compiler message to update their code. 
+Here we get our first look at the @SuppressWarnings annotation. This annotation can be used to turn off compiler warnings - either all warnings or only certain ones. 
 
-In this section we'll see how the `@Deprecated` annotation provides a way for us to be responsible and courteous developers.
+This section considers the warning a compiler gives you when you incorrectly call a static method.
+
+```bash
+javac -Xlint -d out -cp src src/com/franktran/suppresswarnings/Main.java
+```
