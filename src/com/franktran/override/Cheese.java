@@ -3,7 +3,7 @@ package com.franktran.override;
 public class Cheese {
 
     @Override
-    public String toString(String something) {
+    public String toString() {
         return "String cheese!";
     }
 }
